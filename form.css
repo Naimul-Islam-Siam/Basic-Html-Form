@@ -138,6 +138,7 @@ body {
   border-radius: 3px;
   font-size: 2rem;
   text-transform: capitalize;
+  font-family: arial;
 }
 
 .form__textarea:focus {
@@ -244,18 +245,23 @@ body {
   border: none;
   border-radius: 3px;
   color: #777;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   margin-right: 2rem;
+  font-family: inherit;
 }
 
 .form__date-input::before {
   content: attr(placeholder) !important;
   color: #777;
-  margin-right: 5px;
+  width: 100%;
 }
 
-.form__date-input:focus::before, .form__date-input:valid::before {
-  content: "";
+.form__date-input:focus {
+  outline: none;
+}
+
+.form__date-input:valid::before {
+  display: none;
 }
 
 .form__file {
