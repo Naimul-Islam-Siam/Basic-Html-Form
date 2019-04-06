@@ -139,9 +139,9 @@ body {
         border: 1.4px solid rgba($color-white, 1);
         border-radius: 3px;
 
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-transform: capitalize;
-        font-family: arial;
+        font-family: inherit;
 
         &:focus {
             outline: none;

@@ -136,9 +136,9 @@ body {
   width: 100%;
   border: 1.4px solid #cccccc;
   border-radius: 3px;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: capitalize;
-  font-family: arial;
+  font-family: inherit;
 }
 
 .form__textarea:focus {
